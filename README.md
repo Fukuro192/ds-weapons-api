@@ -7,6 +7,7 @@ A Django API serving Dark Weapons informations and stats.
 On the first run, you need to perform the django migrations and fill the database.
 
 ```bash
+pip install -r requirements.txt
 python3 manage.py migrate
 python3 manage.py ingest_weapons
 ```
